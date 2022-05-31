@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablade multiplicar con rango</title>
+    <!-- CSS only -->
+    <!-- JavaScript Bundle with Popper -->
+    <link href="./style.css" rel="stylesheet" >
+</head>
+  <body>
+    <header>
+      <h1 id="txt">Realiza cualquier operación ♡ </h1>
+    </header>
+  <main>
+    <div id="appTabla">
+      <form name="calculator">
+        <input type="textfield" name="res" value="" autocomplete="off" readonly>
+              
+        <input type="button" value="7" onclick="document.calculator.res.value+='7'"class="amarillo">
+        <input type="button" value="8"onclick="document.calculator.res.value+='8'"class="amarillo">
+        <input type="button" value="9"onclick="document.calculator.res.value+='9'"class="amarillo">
+        <input type="button" value="+"onclick="document.calculator.res.value+='+'">
+        <br>
+        <input type="button" value="4" onclick="document.calculator.resa.value+='4'"class="amarillo">
+        <input type="button" value="5" onclick="document.calculator.res.value+='5'"class="amarillo">
+        <input type="button" value="6" onclick="document.calculator.res.value+='6'"class="amarillo">
+        <input type="button" value="-" onclick="document.calculator.res.value+='-'">
+        <br>
+        <input type="button" value="1" onclick="document.calculator.res.value+='1'" class="amarillo">
+        <input type="button" value="2" onclick="document.calculator.res.value+='2'" class="amarillo">
+        <input type="button" value="3" onclick="document.calculator.res.value+='3'"class="amarillo">
+        <input type="button" value="x" onclick="document.calculator.res.value+='*'">
+        <br>
+        <input type="button" value="0"class="amarillo" onclick="document.calculator.res.value+='0'">
+        <input type="reset" value="C" >
+         <input type="button" value="=" onclick="document.calculator.res.value=eval(document.calculator.res.value)">
+        <input type="button" value="/" onclick="document.calculator.res.value+='/'">
+      </form>
+    </div>
+  </main>  
+  </div>
+  <h4 id="txt">Elegiste bien </h4>
+  <script  src="./ejemplo.js"></script>
+  </body>
+</html>
